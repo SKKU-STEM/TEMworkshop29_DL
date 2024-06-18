@@ -176,7 +176,7 @@ def test(test_data_dir, model, device, show_result = False):
         color_map = map_to_rgb8(mapping_result)
 
         if show_result:
-            fig, ax = plt.subplots(1, 2, figsize = (10, 5))
+            fig, ax = plt.subplots(1, 2, figsize = (12, 7))
             ax[0].set_title("STEM HAADF Image", fontsize = 16)
             ax[0].imshow(data_sig, cmap = 'gray')
             ax[0].axis('off')
