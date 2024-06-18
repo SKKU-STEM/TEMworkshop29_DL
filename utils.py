@@ -176,11 +176,11 @@ def test(test_data_dir, model, device, show_result = False):
         color_map = map_to_rgb8(mapping_result)
 
         if show_result:
-            fig, ax = plt.subplots(1, 2, figsize = (20, 12))
-            ax[0].set_title("STEM HAADF Image", fontsize = 24)
+            fig, ax = plt.subplots(1, 2, figsize = (12, 5))
+            ax[0].set_title("STEM HAADF Image", fontsize = 16)
             ax[0].imshow(data_sig, cmap = 'gray')
             ax[0].axis('off')
-            ax[1].set_title("Mapping Image", fontsize = 24)
+            ax[1].set_title("Mapping Image", fontsize = 16)
             ax[1].imshow(color_map)
             ax[1].axis('off')
             plt.show()
