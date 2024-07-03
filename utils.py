@@ -303,7 +303,12 @@ def test(test_data_dir, model, device, show_result = False, save_mapping_result 
     return test_result, mapping_result
 
 def evaluation(test_data_dir, test_result):
-    src_folder, _, img_name = test_data_dir.split("/")
+    dir_list = test_data_dir.split("/")
+    src_folder = ""
+    for i in range(len(dir_list) - 2):
+        src_folder += f"{dir_list[i]}/"
+    src_folder = src_folder[:-1]
+    img_name = dir_list[-1]
     gt_data_dir = f"{src_folder}/ground_truth/{img_name}"
     gt_sig = pilimg.open(gt_data_dir)
     gt_sig = np.array(gt_sig)
