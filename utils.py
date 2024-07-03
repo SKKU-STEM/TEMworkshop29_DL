@@ -239,7 +239,7 @@ def map_to_rgb8(mapping_result):
     return color_mapping
 
 def plot_result(data_sig, mapping_result, pred, test_data_dir):
-    fig, ax = plt.subplots(1, 2, figsize = (20, 12))
+    fig, ax = plt.subplots(1, 2, figsize = (15, 9))
     ax[0].set_title("STEM HAADF Image", fontsize = 24)
     ax[0].imshow(data_sig, cmap = 'gray')
     ax[0].axis('off')
