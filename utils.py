@@ -85,7 +85,7 @@ class DATASET(Dataset):
 
 def show_dataset(dataset_dir, label_list, show_img_num):
 
-    fig, ax = plt.subplots(len(label_list), show_img_num)
+    fig, ax = plt.subplots(len(label_list), show_img_num, figsize = (15, 9))
     for label_name in label_list:
         data_list = os.listdir(f"{dataset_dir}/{label_name}")
         for i in range(show_img_num):
