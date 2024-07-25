@@ -3,6 +3,6 @@
 
 강의자료 pdf : https://drive.google.com/file/d/1-MSIvEvbcnaBnTV6k9T1_uY7OsMTAA_d/view?usp=drive_link
 
-실습코드 : https://drive.google.com/file/d/1LEfyjkEaO6K-Jq_WWeL02jzBHm7BpBp6/view?usp=drive_link
+실습코드 : https://drive.google.com/file/d/18z3UuBCz92avYTF7MwVrt3LZ8_faVezT/view?usp=drive_link
 
-실습코드(full version) : https://drive.google.com/file/d/18z3UuBCz92avYTF7MwVrt3LZ8_faVezT/view?usp=drive_link
+실습코드(full version) : https://drive.google.com/file/d/1LEfyjkEaO6K-Jq_WWeL02jzBHm7BpBp6/view?usp=drive_link
