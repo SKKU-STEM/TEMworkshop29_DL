@@ -7,5 +7,5 @@
 
  - 실습코드(full version) : https://drive.google.com/file/d/1LEfyjkEaO6K-Jq_WWeL02jzBHm7BpBp6/view?usp=sharing
 
- - 성균관대학교 에너지과학과 (김영민 교수님 연구실) **양상혁** - 0412ysh@skku.edu
+ - Instructor : 성균관대학교 에너지과학과 (김영민 교수님 연구실) **양상혁** - 0412ysh@skku.edu
 
